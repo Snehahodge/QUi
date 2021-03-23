@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
 
-public class test6{
+public class tests{
 	
 	@Test
    public void test(){
