@@ -9,14 +9,18 @@ Suite Teardown          Close All Browsers
 
 Test Case 12
              
-    VerifyText          The animal friendly clothing company
-    ClickText           Contact
-    TypeText            Full Name           Robot Tester
-    TypeText            Email Address       test@test.com
-    TypeText            Message             Robots type way faster than I do...
-    ClickText           Send Message
-    VerifyText          Your message is sent. We'll be in touch soon.
-    CloseBrowser
+    ClickText         Sign in
+    TypeText          username       sneha.hodge
+    TypeSecret        password       @arnav@06
+    ClickText         CGT ISAAC Testing
+    ClickText         +
+    ClickText         Log time
+    TypeText          time_entry[hours]                 9
+    DropDown          Issue                             Task
+    ClickText         Activity *
+    ClickText         Create
+    ClickText         Spent time
+    ClickText         Sign out
 
 
 
