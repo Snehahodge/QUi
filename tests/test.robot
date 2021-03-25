@@ -12,7 +12,7 @@ Test Case 12
     ClickText         Sign in
     TypeText          username       sneha.hodge
     TypeSecret        password       @arnav@06
-    DropDown  Jump to a project...
+    DropDown  Jump to a project... anchor=2
     ClickText         CGT ISAAC Testing timeout=2 
     ClickText         +
     ClickText         Log time
