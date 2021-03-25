@@ -12,7 +12,8 @@ Test Case 12
     ClickText         Sign in
     TypeText          username       sneha.hodge
     TypeSecret        password       @arnav@06
-    ClickText         CGT ISAAC Testing
+    DropDown  Jump to a project...
+    ClickText         CGT ISAAC Testing timeout=2 
     ClickText         +
     ClickText         Log time
     TypeText          time_entry[hours]                 9
