@@ -12,7 +12,7 @@ Test Case 12
     ClickText         Sign in
     TypeText          username       sneha.hodge
     TypeSecret        password       @arnav@06
-    DropDown  Jump to a project index=1 option=CGT ISAAC Testing
+    DropDown  "Jump to a project" "CGT ISAAC Testing"
     ClickText         CGT ISAAC Testing timeout=2 
     ClickText         +
     ClickText         Log time
