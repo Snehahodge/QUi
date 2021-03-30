@@ -8,6 +8,7 @@ Suite Teardown          Close All Browsers
 *** Test Cases ***
 
 User case
+ GoTo              https://qentinelqi.github.io/shop
     VerifyText          The animal friendly clothing company
     ClickText           Scar the Lion
     ClickText           Add to cart
