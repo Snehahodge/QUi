@@ -19,8 +19,10 @@ Use case 1
     VerifyText          Your cart is empty
     ClickText           Continue shopping   
    
-Use case 2
-VerifyText          The animal friendly clothing company
+
+Test case
+    OpenBrowser  https://qentinelqi.github.io/shop      chrome
+    VerifyText          The animal friendly clothing company
     ClickText           Contact
     TypeText            Full Name           Robot Tester
     TypeText            Email Address       test@test.com
