@@ -21,7 +21,7 @@ User case
 
 Use case 2
     [Documentation]    ...
-    Appstate    
+    Appstate    home
 VerifyText          The animal friendly clothing company
     ClickText           Contact
     TypeText            Full Name           Robot Tester
