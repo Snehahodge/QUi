@@ -7,7 +7,7 @@ Suite Teardown          Close All Browsers
 
 *** Test Cases ***
 
-Test Case 12
+User case
     VerifyText          The animal friendly clothing company
     ClickText           Scar the Lion
     ClickText           Add to cart
@@ -19,5 +19,14 @@ Test Case 12
     ClickText           Continue shopping   
    
 
-
-
+Use case 2
+    [Documentation]    ...
+    Appstate    
+VerifyText          The animal friendly clothing company
+    ClickText           Contact
+    TypeText            Full Name           Robot Tester
+    TypeText            Email Address       test@test.com
+    TypeText            Message             Robots type way faster than I do...
+    ClickText           Send Message
+    VerifyText          Your message is sent. We'll be in touch soon.
+    CloseBrowser
